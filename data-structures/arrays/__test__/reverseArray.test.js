@@ -1,5 +1,5 @@
-const assert = require('../../utils/assert');
-const reverseArray = require('./reverseArray');
+const assert = require('../../../utils/assert');
+const reverseArray = require('../reverseArray');
 
 assert.describe('Arrays/reverseArray Test', () => {
   assert.it('should return a reverse array', () => {

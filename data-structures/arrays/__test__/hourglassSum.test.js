@@ -1,5 +1,5 @@
-const assert = require('../../utils/assert');
-const hourglassSum = require('./hourglassSum');
+const assert = require('../../../utils/assert');
+const hourglassSum = require('../hourglassSum');
 
 const test1 = [
   [ 1, 1, 1, 0, 0, 0 ],
