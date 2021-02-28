@@ -20,7 +20,7 @@ const test2 = [
 ]
 
 
-assert.describe('2d-Array/hourglassSum Test', () => {
+assert.describe('Arrays/hourglassSum Test', () => {
   assert.it('should return the hourglass 19 to test1 array', () => {
     const hourglass = hourglassSum(test1)
     assert.expect(hourglass).toEqual(19)
