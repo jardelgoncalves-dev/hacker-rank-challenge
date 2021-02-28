@@ -1,3 +1,5 @@
+// 2D Array
+
 // Complete the hourglassSum function below.
 function hourglassSum(arr) {
   const sizeLines = (arr || []).length - 2
