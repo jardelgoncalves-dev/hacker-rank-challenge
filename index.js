@@ -22,7 +22,7 @@ const directories = ['data-structures']
 
 directories.forEach(dir => {
   const files = getFilesRecursively(dir)
-  files.forEach(f => {
-    console.log(childProccess.execSync(`node ./${f}`).toString())
+  files.forEach(file => {
+    console.log(childProccess.execSync(`node ./${file}`).toString())
   })
 })
