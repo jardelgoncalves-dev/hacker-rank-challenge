@@ -21,7 +21,7 @@ const getFilesRecursively = (paths) => {
     .filter(f => !match || new RegExp(match, 'i').test(f));
 };
 
-const directories = ['data-structures']
+const directories = ['data-structures', 'algorithms']
 
 directories.forEach(dir => {
   const files = getFilesRecursively(dir)
