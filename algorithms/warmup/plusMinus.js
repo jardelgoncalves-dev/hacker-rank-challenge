@@ -13,16 +13,11 @@ function plusMinus(arr) {
 
   const toFixed = (result) => (result).toFixed(6)
   
-  // process.stdout.write(
-  //   toFixed(counters.positive/size) + '\n' +
-  //   toFixed(counters.negative/size) + '\n' +
-  //   toFixed(counters.zero/size)
-  // )
-  return [
-      toFixed(counters.positive/size),
-      toFixed(counters.negative/size),
-      toFixed(counters.zero/size)
-  ]
+  process.stdout.write(
+    toFixed(counters.positive/size) + '\n' +
+    toFixed(counters.negative/size) + '\n' +
+    toFixed(counters.zero/size)
+  )
 }
 
 module.exports = plusMinus
