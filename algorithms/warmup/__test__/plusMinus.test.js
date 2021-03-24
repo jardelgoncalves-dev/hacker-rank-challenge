@@ -27,4 +27,3 @@ assert.describe('Warmup/plusMinus Test', () => {
     process.stdout.write = write;
   })
 })
-0.375000, 0.375000, 0.250000
